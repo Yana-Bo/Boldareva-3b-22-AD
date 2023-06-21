@@ -1,0 +1,1 @@
+class GeometricFigure:    def __init__(self, square, perimeter):        self.square = square        self.perimetr = perimeter    def info(self):        print(f"Плащадь фигуры - {self.square}, периметр - {self.perimetr}")fg = GeometricFigure(50, 30)fg.info() 

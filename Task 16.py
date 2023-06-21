@@ -1,0 +1,1 @@
+class Cat:    def __init__(self, name, age, color) -> None:        self.name = name        self.age = age        self.color = color    def info(self):        print(f"Кошка по имени {self.name}, возраст {self.age} года, цвет {self.color}")cat = Cat("Муся", 3, "белый")cat.info()

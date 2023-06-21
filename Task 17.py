@@ -1,0 +1,1 @@
+class Book:    def __init__(self, bookname, author, year, genre) -> None:        self.bookname = bookname        self.author = author        self.year = year        self.genre = genre    def info(self):        print(f"{self.bookname}, {self.author}({self.year}), {self.genre}")book = Book("Memoirs of a Geisha", "Arthur Golden", 1997, "historical fiction")book.info()  

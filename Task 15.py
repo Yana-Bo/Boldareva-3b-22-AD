@@ -1,0 +1,1 @@
+class Car:    def __init__(self, brand, model, year, price) -> None:        self.brand = brand        self.model = model        self.year = year        self.price = price    def info(self):        print(f"{self.brand}-{self.model}, {self.year} года, цена: {self.price} рублей")car = Car("Ford", "Focus", 2006, 450000)car.info()

@@ -1,0 +1,1 @@
+class Student:    def __init__(self, name, surname, age, speciality) -> None:        self.name = name        self.surname = surname        self.age = age        self.speciality = speciality    def info(self):        print(f"{self.name} {self.surname}, возраст: {self.age} года, специальность: {self.speciality}")st = Student("Яна", "Болдарева", 22, "аналитик")st.info()
